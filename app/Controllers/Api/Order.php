@@ -87,9 +87,5 @@ class Order extends ResourceController
     return $this->respondDeleted(['id_order' => $id]);
   }
 
-  // public function insertDetail($data)
-  // {
-  //   $this->db->table("detail_order")->insert($data);
-  // }
 
 }
